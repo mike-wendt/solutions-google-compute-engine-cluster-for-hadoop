@@ -238,14 +238,14 @@ Download google-api-python-client-1.1.tar.gz from
 [download page](http://code.google.com/p/google-api-python-client/downloads/list)
 or by the following command.
 
-    curl -O http://google-api-python-client.googlecode.com/files/google-api-python-client-1.1.tar.gz
+    curl -O http://google-api-python-client.googlecode.com/files/google-api-python-client-1.2.tar.gz
 
 Set up the library in `compute_engine_cluster_for_hadoop` directory.
 
-    tar zxf google-api-python-client-1.1.tar.gz
-    ln -s google-api-python-client-1.1/apiclient .
-    ln -s google-api-python-client-1.1/oauth2client .
-    ln -s google-api-python-client-1.1/uritemplate .
+    tar zxf google-api-python-client-1.2.tar.gz
+    ln -s google-api-python-client-1.2/apiclient .
+    ln -s google-api-python-client-1.2/oauth2client .
+    ln -s google-api-python-client-1.2/uritemplate .
 
 ##### Httplib2
 
